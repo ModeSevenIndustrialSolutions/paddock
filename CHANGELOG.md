@@ -1,5 +1,44 @@
 # Changelog
 
+## [0.5.0](https://github.com/tjorri/paddock/compare/v0.4.1...v0.5.0) (2026-04-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* **security:** v0.4 Phase 2g — Substitute-auth hygiene (F-09, F-10, F-21, F-25) ([#37](https://github.com/tjorri/paddock/issues/37))
+* **security:** v0.4 Phase 2f — Per-run intermediate CA (F-18) ([#34](https://github.com/tjorri/paddock/issues/34))
+* **security:** v0.4 Phase 2e — Pod-spec hardening (F-37, F-39, F-31) ([#31](https://github.com/tjorri/paddock/issues/31))
+* **security:** v0.4 Phase 2c — Theme A audit completeness ([#26](https://github.com/tjorri/paddock/issues/26))
+
+### Features
+
+* **e2e:** v0.4 security Phase 2b — test infrastructure + adversarial coverage ([#24](https://github.com/tjorri/paddock/issues/24)) ([198cf7c](https://github.com/tjorri/paddock/commit/198cf7c7ce49ddd8864dadfdf03d70bcef323ccc))
+* **security:** v0.4 Phase 2c — Theme A audit completeness ([#26](https://github.com/tjorri/paddock/issues/26)) ([57f4e68](https://github.com/tjorri/paddock/commit/57f4e68cf369503491ba1323e58d73dcfb7f5f15))
+* **security:** v0.4 Phase 2d — carry-over fixes (F-41, F-43, kube-apiserver NP) ([#30](https://github.com/tjorri/paddock/issues/30)) ([c914faa](https://github.com/tjorri/paddock/commit/c914faad277ac3b8e235903736e6e65d89314bef))
+* **security:** v0.4 Phase 2e — Pod-spec hardening (F-37, F-39, F-31) ([#31](https://github.com/tjorri/paddock/issues/31)) ([ae51143](https://github.com/tjorri/paddock/commit/ae511438a61d985a3628c1e1af51e199ca789c61))
+* **security:** v0.4 Phase 2f — Per-run intermediate CA (F-18) ([#34](https://github.com/tjorri/paddock/issues/34)) ([cdb2a1c](https://github.com/tjorri/paddock/commit/cdb2a1c0f1a934cae7a279c602b1183f3253891b))
+* **security:** v0.4 Phase 2g — Substitute-auth hygiene (F-09, F-10, F-21, F-25) ([#37](https://github.com/tjorri/paddock/issues/37)) ([2b2b10e](https://github.com/tjorri/paddock/commit/2b2b10e5320d537b53dc06355a7d8e8d0c7ccfea))
+
+
+### Bug Fixes
+
+* **lint:** clear pre-existing golangci-lint debt ([#27](https://github.com/tjorri/paddock/issues/27)) ([9a9a365](https://github.com/tjorri/paddock/commit/9a9a3652685cc5a6fa6d8f1ef59d3c81c3aef716))
+
+
+### Documentation
+
+* **plans:** core-systems engineering-quality review ([#38](https://github.com/tjorri/paddock/issues/38)) ([38e50a9](https://github.com/tjorri/paddock/commit/38e50a90dae01d3fb340e1ef8e2c05c904e64772))
+* **security:** backfill Phase 2a + Phase 2c Resolution lines ([#29](https://github.com/tjorri/paddock/issues/29)) ([1472e11](https://github.com/tjorri/paddock/commit/1472e1137145d6810d9e55fd09e6bf02bd20bed0))
+
+
+### Code Refactoring
+
+* broker-client unification (XC-01, XC-02, P-01, P-07) ([#53](https://github.com/tjorri/paddock/issues/53)) ([99ce45e](https://github.com/tjorri/paddock/commit/99ce45eccb97ca0f5f14937adfde412bb61f60ab))
+* **broker:** handler decomposition (Theme 5) ([#57](https://github.com/tjorri/paddock/issues/57)) ([3965a27](https://github.com/tjorri/paddock/commit/3965a277af461c1dd39846e1d5129a1fd3243336))
+* **broker:** provider DRY + tests (Theme 4) ([#58](https://github.com/tjorri/paddock/issues/58)) ([4481c5f](https://github.com/tjorri/paddock/commit/4481c5f7a33420cf5b8370b02279acd330a7a491))
+* **controller:** controller dedup pass (C-01..C-09) ([#54](https://github.com/tjorri/paddock/issues/54)) ([446e641](https://github.com/tjorri/paddock/commit/446e641fb6d145da585834ec5ff9a4d15e0a13b2))
+* **proxy:** MITM unification + tests (Theme 2) ([#55](https://github.com/tjorri/paddock/issues/55)) ([d7af2f5](https://github.com/tjorri/paddock/commit/d7af2f53e4de9d2bf39cf2bed8d336a7576b01eb))
+
 ## [0.4.1](https://github.com/tjorri/paddock/compare/v0.4.0...v0.4.1) (2026-04-25)
 
 
